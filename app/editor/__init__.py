@@ -16,7 +16,7 @@ def setup():
     # cria o usuario 'member@example.com' com role de editor
     if not User.query.filter(User.email == 'member@example.com').first():
         user = User(
-            email='member@example.com',
+            email='member@gmail.com',
             email_confirmed_at=datetime.now(),
             password=user_manager.hash_password('Password1'),
             username='member',
