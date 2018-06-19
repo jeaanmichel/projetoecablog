@@ -50,4 +50,4 @@ def setup():
 @login_required
 @roles_required(['Editor'])
 def index():
-    return "You are on the editor homepage!"
+    return "You are on the editor homepage."
