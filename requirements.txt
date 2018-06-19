@@ -1,0 +1,7 @@
+flask-wtf
+flask
+flask-sqlalchemy
+flask-migrate
+flask-script
+flask-login
+flask-user==0.6.{X}
